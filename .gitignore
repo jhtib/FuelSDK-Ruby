@@ -26,3 +26,6 @@ samples/sample_helper.rb
 .DS_STORE
 gengem.bat
 .idea
+
+Gemfile.lock
+.tool-versions
