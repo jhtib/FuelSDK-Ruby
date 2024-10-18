@@ -94,6 +94,6 @@ module MarketingCloudSDK::Targeting
       @endpoint = response['url']
       set_soap_endpoint_to_file @endpoint
     rescue => e
-      @endpoint = 'https://webservice.exacttarget.com/Service.asmx'
+      @endpoint = 'https://mc0mkqdfps-gb8843scj5plmc4hq.soap.marketingcloudapis.com/Service.asmx'
     end
 end
